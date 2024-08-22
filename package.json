@@ -1,0 +1,28 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./dist/bot.js",
+    "build": "tsc",
+    "dev": "npx ts-node bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.29.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegram": "^2.23.10"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.0",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
